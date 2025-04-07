@@ -14,7 +14,7 @@ function cargarTabla(): void {
 
             row.innerHTML = `
             <th scope="row">${serie.id}</th>
-            <td> ${serie.name} </td>
+            <td> <a href='#'> ${serie.name} </a></td>
             <td>${serie.channel}</td>
             <td>${serie.seasons}</td>
             `;
